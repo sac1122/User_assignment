@@ -1,0 +1,111 @@
+.table_card{
+    border: 1px solid #0000000f;
+    box-shadow: 0 0 12.100000381469727px 0 #0000001c;
+    padding: .75rem;
+    
+}
+
+.badge{
+    background-color: #1E88E5;
+    border-radius: 4px;
+    padding: 0.3rem 0.5rem;
+    margin-right: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.list_heading{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.title_div{
+    display: flex;
+    align-items: center;
+}
+
+.list_heading h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.list_heading .title_div svg{
+    color: darkgray;
+    margin-right: 10px;
+    font-size: 36px;
+}
+
+.main_div{
+    margin: 0rem 4rem;
+}
+
+.detail_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.detail_data{
+    display: flex;
+    align-items:flex-start;
+}
+
+.detail_data svg{
+    font-size: 40px;
+    color: #fff;
+}
+
+.img_div{
+    background: #d8d3d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+}
+
+.userDetail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.userDetail h5{
+    font-weight: 700;
+    font-size: 16px;
+    min-width: 45%;
+}
+
+.userDetail h6{
+    font-size: 16px;
+}
+
+.userDetail2{
+    display: flex;
+    align-items: flex-start;
+}
+
+.userDetail2 h5{
+    font-weight: 700;
+    font-size: 16px;
+    min-width: 45%;
+}
+
+.userDetail2 h6{
+    font-size: 16px;
+}
+
+.interest{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.interest .badge{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
